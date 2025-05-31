@@ -164,3 +164,67 @@ body {
     width: 698px;
     height: 728px;
 }
+
+/* MAIN */
+
+/* section about */
+.about {
+    width: 1280px;
+    height: 588px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.about-container {
+    width: 1200px;
+    height: 408px;
+    margin: 80px 40px 100px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.about-img {
+    width: 300px;
+    height: 408px;
+}
+
+.about-text {
+    width: 430px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.h2 {
+    width: 370px;
+    height: 90px;
+    margin: 0;
+    font-family: Georgia, Times, serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: rgba(84, 84, 84, 1);
+    line-height: 130%;
+    letter-spacing: 2px;
+}
+
+.about-text1,
+.about-text2  {
+    width: 430px;
+    height: 96px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(76, 76, 76, 1);
+    line-height: 160%;
+}
+
+.about-text1 {
+    height: 96px;
+}
+.about-text2 {
+    height: 144px;
+}
+
