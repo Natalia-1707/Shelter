@@ -1,0 +1,166 @@
+html {
+    max-width: 1280px;
+    scroll-behavior: smooth;
+    display: block;
+    margin: auto;
+}
+
+body {
+    width: 1280px;
+    margin: 0;
+}
+
+/* HEADER */
+
+.header {
+    background: linear-gradient(90deg, rgba(91, 72, 58, 1), rgba(38, 36, 37, 1));
+}
+
+.header-container {
+    width: 100%;
+    height: 908px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-nav-block {
+    width: 1200px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 40px 90px 40px;
+}
+
+.logo-block {
+    width: 184px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+.logo-name {
+    width: 100%;
+    height: 35px;
+    font-family: Georgia, Times, serif;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 1.7px;
+    color: rgba(241, 205, 179, 1);
+}
+
+.logo-caption {
+    width: 180px;
+    height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1.3px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.navigation {
+    width: 443px;
+    height: 27px;
+    display: flex;
+    margin-right: 0;
+    margin-top: 6px;
+}
+
+.navigation-list {
+    width: 100%;
+    height: 24px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type:  none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(205, 205, 205, 1);
+    gap: 35px;
+}
+
+.nav-option-about {
+    border-bottom: 3px solid rgba(241, 205, 179, 1);
+    pointer-events: none;
+}
+
+.nav-option {
+    cursor: pointer;
+}
+
+.nav-option:hover {
+    border-bottom: 3px solid rgba(241, 205, 179, 1);
+    transition: 0.2s;
+}
+
+.not-only-block {
+    width: 1200px;
+    height: 728px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    gap: 42px;
+
+}
+
+.not-only-text {
+    width: 466px;
+    height: 322px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 163px;
+    gap: 42px;
+}
+
+.h1 {
+    width: 310px;
+    height: 114px;
+    margin: 0;
+    font-family: Georgia, Times, serif;
+    font-weight: 400;
+    font-size: 44px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 130%;
+}
+
+.h1-caption {
+    width: 460px;
+    height: 72px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(205, 205, 205, 1);
+    line-height: 160%;
+}
+
+.make-friend-btn {
+    width: 207px;
+    height: 52px;
+    border-radius: 100px;
+    background-color: rgba(241, 205, 179, 1);
+    border: none;
+    padding: 15px 45px;
+    font-family: Georgia, Times, serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: rgba(41, 41, 41, 1);
+    letter-spacing: 0.7px;
+    cursor: pointer;
+}
+
+.make-friend-btn:hover {
+    background-color: rgba(253, 220, 196, 1);
+}
+.header-img {
+    width: 698px;
+    height: 728px;
+}
