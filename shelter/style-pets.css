@@ -101,7 +101,7 @@ body {
 
 .pets {
     width: 1280px;
-    height: 1342px;
+    height: 1262px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -346,4 +346,83 @@ body {
     border: 1px solid rgba(41, 41, 41, 1);
     border-width: 1px 0 0 1px;
     transform: rotate(135deg);
+}
+
+/* FOOTER */
+
+.footer {
+    width: 1280px;
+    height: 350px;
+    background: linear-gradient(90deg, rgba(91, 72, 58, 1), rgba(38, 36, 37, 1));
+}
+
+.footer-container {
+    width: 1200px;
+    height: 310px;
+    padding-top: 40px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+}
+
+.contacts,
+.address {
+    height: 234px;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.contacts {
+    width: 278px;
+    gap: 36px;
+}
+
+.address {
+    width: 302px;
+    gap: 32px;
+}
+
+h3 {
+    width: auto; 
+    height: auto;
+    margin: 0;
+    font-family: Georgia, Times, serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 1.9px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.email-icon,
+.phone-icon {
+    width: 40px;
+    height: 32px;
+}
+
+.address-icon {
+    width: 22px;
+    height: 32px;
+}
+
+.email,
+.phone,
+.address-1,
+.address-2 {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    font-family: Georgia, Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 114.99999999999999%;
+    letter-spacing: 1px;
+    color: rgba(241, 205, 179, 1);
 }
