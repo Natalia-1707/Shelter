@@ -205,19 +205,27 @@ body {
     border: 2px rgba(241, 205, 179, 1) solid;
 }
 .button-two-arrow-left:hover,
-.button-one-arrow-left:hover {
+.button-one-arrow-left:hover,
+.button-one-arrow-right:hover,
+.button-two-arrow-right:hover {
     cursor: pointer;
     background-color: rgba(241, 205, 179, 1);
+    transition: 0.5s;
 }
 .button-two-arrow-left:disabled,
-.button-one-arrow-left:disabled {
+.button-one-arrow-left:disabled,
+.button-two-arrow-right:disabled,
+.button-one-arrow-right:disabled {
     border: 2px rgba(205, 205, 205, 1) solid;
     background-color: rgba(246, 246, 246, 1);
     cursor: not-allowed;
 }
 .button-two-arrow-left:disabled span.arrow-one,
 .button-two-arrow-left:disabled span.arrow-two,
-.button-one-arrow-left:disabled span.arrow  {
+.button-one-arrow-left:disabled span.arrow,
+.button-two-arrow-right:disabled span.arrow-two-right,
+.button-two-arrow-right:disabled span.arrow-two-right-two,
+.button-one-arrow-right:disabled span.arrow-right   {
     border: 1px rgba(205, 205, 205, 1) solid;
     border-right: transparent;
     border-bottom: transparent;
@@ -285,11 +293,6 @@ body {
     background-color: rgba(246, 246, 246, 1);
     border: 2px rgba(241, 205, 179, 1) solid;
 }
-.button-one-arrow-right:hover,
-.button-two-arrow-right:hover {
-    cursor: pointer;
-    background-color: rgba(241, 205, 179, 1);
-}
 
 .arrow-two-right,
 .arrow-two-right-two {
@@ -308,33 +311,6 @@ body {
 
 .arrow-two-right-two {
     margin-right: 4px;
-}
-
-.button-two-arrow-right:disabled,
-.button-one-arrow-right:disabled {
-    border: 2px rgba(205, 205, 205, 1) solid;
-    background-color: rgba(246, 246, 246, 1);
-    cursor: not-allowed;
-}
-.button-two-arrow-right:disabled span.arrow-two-right,
-.button-two-arrow-right:disabled span.arrow-two-right-two,
-.button-one-arrow-right:disabled span.arrow-right {
-    border: 1px rgba(205, 205, 205, 1) solid;
-    border-right: transparent;
-    border-bottom: transparent;
-}
-
-.button-one-arrow-right {
-    cursor: pointer;
-    width: 52px;
-    height: 52px;
-    border-radius: 100px;
-    background-color: rgba(246, 246, 246, 1);
-    border: 2px rgba(241, 205, 179, 1) solid;
-}
-.button-one-arrow-right:hover{
-    cursor: pointer;
-    background-color: rgba(241, 205, 179, 1);
 }
 
 .arrow-right {
