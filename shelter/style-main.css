@@ -69,6 +69,20 @@ body {
     margin-top: 6px;
 }
 
+.burger-menu {
+    display: none;
+    width: 40px;
+    height: 34px;
+    z-index: 2;
+    cursor: pointer;
+}
+.burger {
+    width: 30px;
+    height: 1.5px;
+    background-color: rgba(241, 205, 179, 1);
+    margin: 10px;
+}
+
 .navigation-list {
     width: 100%;
     height: 24px;
@@ -796,5 +810,60 @@ h3 {
     .footer-dog {
         width: 300px;
         height: 310px;
+    }
+}
+
+@media screen and (max-width: 767.5px) and (min-width: 381px) {
+    html {
+        width: 100%;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .header_container {
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .logo-nav-block {
+        width: 90%;
+    }
+
+    .burger-menu {
+        display: block;
+        position: absolute;
+        right: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigation-list {
+        display: none;
+    }
+
+    .navigation {
+        width: 40px;
+        height: 34px;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
     }
 }
