@@ -544,3 +544,144 @@ h3 {
         margin-top: 0;
     }
 }
+
+@media screen and (max-width: 320px) {
+    html {
+        max-width: 320px;
+    }
+    body {
+        width: 320px;
+    }
+
+    .header {
+        width: 100%;
+        height: 120px;
+    }
+
+    .logo-nav-block {
+        width: 280px;
+        gap: 66px;
+        margin: 30px 20px 0px 20px;
+    }
+
+    .logo-name {
+        width: 184px;
+    }
+
+    .burger-menu {
+        width: 30px;
+        height: 22px;
+        display: block;
+        position: absolute;
+        right: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .burger {
+        margin: 0 0 10px 0;
+
+    }
+
+    .navigation-list {
+        display: none;
+    }
+
+    .navigation {
+        position: relative;
+    }
+
+    .pets {
+        width: 320px;
+        height: 1607px;
+        gap: 42px;
+        padding-top: 42px;
+    }
+    
+    .h2-pets {
+        width: 300px;
+        height: 64px;
+        font-size: 25px;
+    }
+    
+    .pets-container {
+        width: 270px;
+        height: 1365px;
+        gap: 30px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    #Sophia,
+    #Timmy,
+    #Charly {
+        display: none;
+    }
+
+    .pagination-btns {
+        width: 300px;
+        gap: 10px;
+    }
+
+    .footer {
+        width: 320px;
+        height: 809px;
+    }
+    
+    .footer-container {
+        width: 300px;
+        height: 779px;
+        padding-top: 30px;
+        padding-left: 10px;
+        display: flex;
+        gap: 40px;
+    }
+
+    .contacts {
+        width: 278px;
+        height: 208px;
+        align-items: center;
+    }
+
+    .address {
+        width: 300px;
+        height: 222px;
+        align-items: start;
+    }
+    
+    .contacts,
+    .address {
+        padding-top: 0;
+        gap: 40px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .address-1,
+    .address-2 {
+        gap: 19.87px;
+    }
+
+    .address-Boston {
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        text-align: start;
+    }
+
+    h3 {
+        width: 302px;
+        height: 64px;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .footer-dog {
+        width: 260px;
+        height: 269px;
+    }
+}
