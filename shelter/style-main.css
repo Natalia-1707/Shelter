@@ -367,7 +367,8 @@ body {
 }
 
 .left-arrow-btn,
-.right-arrow-btn {
+.right-arrow-btn,
+.right-arrow-btn-320 {
     position: relative;
     width: 52px;
     height: 52px;
@@ -377,8 +378,13 @@ body {
     cursor: pointer;
 }
 
+.right-arrow-btn-320 {
+    display: none;
+}
+
 .left-arrow-btn:hover,
-.right-arrow-btn:hover {
+.right-arrow-btn:hover,
+.right-arrow-btn-320:hover  {
     background-color: rgba(241, 205, 179, 1);
     transition: 0.5s;
 }
@@ -699,11 +705,13 @@ h3 {
     .make-friend-btn:hover {
         background-color: rgba(253, 220, 196, 1);
     }
+
     .header-img {
         width: 569px;
         height: 593px;
         padding-left: 14px;
     }
+
     .header-img img {
         width: 569px;
         height: 593px;
@@ -813,7 +821,7 @@ h3 {
     }
 }
 
-@media screen and (max-width: 767.5px) and (min-width: 381px) {
+@media screen and (max-width: 767.5px) and (min-width: 321px) {
     html {
         width: 100%;
     }
@@ -865,5 +873,371 @@ h3 {
         justify-content: center;
         align-items: center;
         margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    html {
+        max-width: 320px;
+    }
+    body {
+        width: 320px;
+    }
+
+    .header {
+        width: 100%;
+        height: 823px;
+    }
+
+    .logo-nav-block {
+        width: 280px;
+        gap: 66px;
+        margin: 30px 20px 0px 20px;
+    }
+
+    .logo-name {
+        width: 184px;
+    }
+
+    .burger-menu {
+        width: 30px;
+        height: 22px;
+        display: block;
+        position: absolute;
+        right: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .burger {
+        margin: 0 0 10px 0;
+
+    }
+
+    .navigation-list {
+        display: none;
+    }
+
+    .navigation {
+        position: relative;
+    }
+    
+    .not-only-block {
+        width: 300px;
+        height: 673px;
+        margin-left: 10px;
+        padding-left: 0;
+        gap: 105px;
+    
+    }
+    
+    .not-only-text {
+        width: 300px;
+        height: 296px;
+        margin-top: 60px;
+        gap: 42px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .h1 {
+        width: 233px;
+        height: 64px;
+        padding-left: 34px;
+        font-size: 25px;
+        text-align: center;
+        letter-spacing: 1.4px;
+    }
+
+    .h1-caption {
+        width: 300px;
+        height: 96px;
+    }
+    
+    .make-friend-btn {
+        margin-left: 46px;
+    }
+    
+    .header-img {
+        width: 260px;
+        height: 271.7735900878906px;
+        padding-left: 40px;
+    }
+    .header-img img {
+        width: 260px;
+        height: 271.7735900878906px;
+    }
+
+    .about {
+        width: 320px;
+        height: 974px;
+    }
+    
+    .about-container {
+        width: 300px;
+        height: 890px;
+        flex-direction: column-reverse;
+        gap: 42px;
+        padding: 42px 10px 0 10px;
+    }
+
+    .about-text {
+        width: 300px;
+        height: 494px;
+        gap: 22px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-text1 {
+        width: 270px;
+        height: 144px;
+        text-align: justify;
+    }
+
+    .about-text2 {
+        width: 270px;
+        height: 239px;
+        text-align: justify;
+    }
+
+    .h2-about,
+    .h2-our-friends,
+    .h2-help-shelter,
+    .h2-donation {
+        font-size: 25px;
+        letter-spacing: 1.8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .h2-about,
+    .h2-our-friends {
+        width: 300px;
+    }
+
+    .h2-help-shelter {
+        width: 230px;
+    }
+
+    .h2-donation {
+        width: 234px;
+        height: 64px;
+    }
+
+    .about-img {
+        width: 260px;
+        height: 353.6000061035156px;
+    }
+
+    .about-img img {
+        width: 260px;
+        height: 353.6000061035156px;
+    }
+
+    .our-friends {
+        width: 320px;
+        height: 791px;
+    }
+    
+    .our-friends-container {
+        width: 300px;
+        height: 707px;
+        padding-left: 10px;
+        padding-top: 42px;
+        gap: 42px;
+    }
+
+    .pets-container {
+        width: 270px;
+        height: 507px;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    #Jennifer {
+        display: none;
+    }
+    
+    .pets {
+        width: 270px;
+        height: 507px;
+        gap: 0;
+    }
+
+    .arrows-buttons-left-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+
+    .right-arrow-btn {
+        display: none;
+    }
+
+    .right-arrow-btn-320 {
+        display: block;
+    }
+
+    .help-shelter {
+        width: 320px;
+        height: 745px;
+    }
+    
+    .help-shelter-container {
+        width: 290px;
+        height: 662px;
+        padding-left: 15px;
+        padding-top: 40px;
+        gap: 42px;
+    }
+    
+    .options {
+        width: 290px;
+        height: 555px;
+        gap: 30px;
+        justify-content: flex-start;
+    }
+    
+    .option {
+        width: 130px;
+        height: 87px;
+        gap: 20px;
+    }
+
+    .option-text {
+        font-size: 15px;
+    }
+
+    .option-img {
+        width: 50px;
+        height: 550px;
+    }
+
+    .donation {
+        width: 320px;
+        height: 542.2000122070312px;
+    }
+    
+    .donation-container {
+        width: 300px;
+        height: 480px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        gap: 42px;
+        padding-top: 42px;
+        padding-left: 10px;
+    }
+
+    .donation-information {
+        width: 300px;
+        height: 281px;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .donation-dog {
+        width: 260px;
+        height: 135.1999969482422px;
+    }
+    
+    .donation-text-1 {
+        width: 273px;
+        height: 24px;
+        letter-spacing: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .donation-text-2 {
+        width: 280px;
+        height: 90px;
+        letter-spacing: 0;
+        text-align: justify;
+    }
+
+    .card {
+        width: 281px;
+        gap: 0;
+        text-align: center;
+    }
+
+    .card-icon {
+        padding-left: 15px;
+    }
+
+    .card-number {
+        display: flex;
+        font-size: 15px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer {
+        width: 320px;
+        height: 809px;
+    }
+    
+    .footer-container {
+        width: 300px;
+        height: 600px;
+        padding-top: 36px;
+        padding-left: 10px;
+        display: flex;
+        gap: 37px;
+    }
+
+    .contacts {
+        width: 278px;
+        height: 208px;
+        align-items: center;
+    }
+
+    .address {
+        width: 300px;
+        height: 222px;
+        align-items: start;
+    }
+    
+    .contacts,
+    .address {
+        padding-top: 0;
+        gap: 40px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .address-1,
+    .address-2 {
+        gap: 19.87px;
+    }
+
+    .address-Boston {
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        text-align: start;
+    }
+
+    h3 {
+        width: 278px;
+        height: 64px;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .footer-dog {
+        width: 260px;
+        height: 269px;
     }
 }
