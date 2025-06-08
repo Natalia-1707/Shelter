@@ -67,6 +67,20 @@ body {
     margin-top: 6px;
 }
 
+.burger-menu {
+    display: none;
+    width: 40px;
+    height: 34px;
+    z-index: 2;
+    cursor: pointer;
+}
+.burger {
+    width: 30px;
+    height: 1.5px;
+    background-color: rgba(0, 0, 0, 1);
+    margin: 10px;
+}
+
 .navigation-list {
     width: 100%;
     height: 24px;
@@ -401,4 +415,132 @@ h3 {
     line-height: 114.99999999999999%;
     letter-spacing: 1px;
     color: rgba(241, 205, 179, 1);
+}
+
+
+/*-----------MEDIA--------- */
+
+@media screen and (max-width: 768px) {
+    html {
+        max-width: 768px;
+    }
+    body {
+        width: 768px;
+    }
+
+    .header {
+        width: 100%;
+        height: 120px;
+    }
+    
+    .logo-nav-block {
+        width: 708px;
+        margin: 30px;
+        gap: 81px;
+    }
+
+    .pets {
+        width: 768px;
+        height: 1653px;
+        gap: 30px;
+    }
+    
+    .h2-pets {
+        width: 400px;
+        height: 90px;
+    }
+    
+    .pets-container {
+        width: 580px;
+        height: 1365px;
+        gap: 30px 40px;
+        padding-top: 0;
+    }
+
+    #Scarlett {
+        display: none;
+    }
+    
+    #Freddie {
+        display: none; 
+    }
+
+    .footer {
+        width: 768px;
+        height: 639px;
+    }
+    
+    .footer-container {
+        width: 708px;
+        height: 639px;
+        padding-top: 0;
+        padding-left: 30px;
+        flex-wrap: wrap;
+        gap: 65px 60px;
+    }
+    
+    .contacts,
+    .address {
+        padding-top: 30px;
+    }
+    
+    .footer-dog {
+        width: 300px;
+        height: 310px;
+    }
+}
+
+@media screen and (max-width: 767.5px) and (min-width: 321px) {
+    html {
+        width: 100%;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .header_container {
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .logo-nav-block {
+        width: 90%;
+    }
+
+    .burger-menu {
+        display: block;
+        position: absolute;
+        right: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigation-list {
+        display: none;
+    }
+
+    .navigation {
+        width: 40px;
+        height: 34px;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
 }
