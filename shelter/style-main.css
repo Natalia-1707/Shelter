@@ -1186,11 +1186,11 @@ h3 {
     
     .footer-container {
         width: 300px;
-        height: 600px;
-        padding-top: 36px;
+        height: 779px;
+        padding-top: 30px;
         padding-left: 10px;
         display: flex;
-        gap: 37px;
+        gap: 40px;
     }
 
     .contacts {
@@ -1227,7 +1227,7 @@ h3 {
     }
 
     h3 {
-        width: 278px;
+        width: 302px;
         height: 64px;
         font-size: 25px;
         display: flex;
@@ -1235,7 +1235,7 @@ h3 {
         text-align: center;
         justify-content: center;
     }
-    
+
     .footer-dog {
         width: 260px;
         height: 269px;
