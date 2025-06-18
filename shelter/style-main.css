@@ -779,6 +779,84 @@ h3 {
     #Woody {
         display: none;
     }
+
+    .help-shelter {
+        width: 100%;
+        height: auto;
+    }
+
+    .help-shelter-container {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        padding-bottom: 6.25rem;
+    }
+
+    .h2-help-shelter {
+        width: 100%;
+        height: auto;
+    }
+
+    .options {
+        width: 100%;
+        height: auto;
+    }
+
+    .option {
+        width: 170px;
+        height: 113px;
+    }
+
+    .donation {
+        width: 100%;
+        height: auto;
+    }
+
+    .donation-container {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        flex-direction: column-reverse;
+        padding-bottom: 6.25rem;
+    }
+
+    .donation-information {
+        width: 70%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .h2-donation,
+    .donation-text-1,
+    .donation-text-2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .donation-text-1,
+    .donation-text-2 {
+        text-align: center;
+    }
+
+    .h2-donation {
+        justify-content: center;
+    }
+
+    .footer {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-container {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        padding-left: 0;
+        gap: clamp(3.75rem, 10vw, 10rem);
+    }
 }
 
 @media screen and (max-width: 768px) {
