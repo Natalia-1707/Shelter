@@ -827,8 +827,6 @@ h3 {
         align-items: center;
     }
 
-
-
     .h2-donation,
     .donation-text-1,
     .donation-text-2 {
@@ -1050,6 +1048,7 @@ h3 {
 
     .logo-nav-block {
         width: 90%;
+        margin: 1.875rem auto;
     }
 
     .burger-menu {
@@ -1127,6 +1126,8 @@ h3 {
         height: auto;
         padding-top: clamp(42px, 5vw, 80px);
         padding-bottom: clamp(42px, 5vw, 100px);
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .about-text {
@@ -1163,6 +1164,165 @@ h3 {
         object-fit: contain;
     }
 
+    .our-friends {
+        width: 100%;
+        height: auto;
+    }
+
+    .our-friends-container {
+        width: 80%;
+        height: auto;
+        margin: auto;
+        padding-left: 0;
+        padding-top: clamp(80px, 50%, 42px);
+        padding-bottom: 2.625rem;
+    }
+
+    .h2-our-friends,
+    .h2-help-shelter,
+    .h2-donation {
+        width: 100%;
+        height: auto;
+        font-size: clamp(25px, 5vw, 35px);
+    }
+
+    .card-number {
+        font-size: clamp(15px, 5vw, 20px);
+    }
+
+    .pets-container {
+        width: 100%;
+        height: auto;
+    }
+
+    #Jennifer {
+        display: none;
+    }
+
+    .help-shelter {
+        width: 100%;
+        height: auto;
+    }
+
+    .help-shelter-container {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        margin: auto;
+        padding-top: clamp(80px, 50%, 42px);
+        padding-bottom: 2.625rem;
+    }
+
+    .options {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        gap: clamp(60px, 50%, 30px);
+    }
+
+    .option {
+        width: 130px;
+        height: auto;
+        text-align: center;
+    }
+    
+    .option-text {
+        font-size: clamp(15px, 5vw, 20px);
+    }
+
+    .donation {
+        width: 100%;
+        height: auto;
+    }
+
+    .donation-container {
+        width: 90%;
+        height: auto;
+        padding-left: 0;
+        margin: auto;
+        padding-top: clamp(80px, 50%, 42px);
+        padding-bottom: 2.625rem;
+    }
+
+    .donation-information {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .donation-text-1,
+    .donation-text-2 {
+        width: 100%;
+    }
+
+    .card {
+        width: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    
+    .card-number {
+        width: auto;
+    }
+
+    .donation-text-1,
+    .donation-text-2 {
+        text-align: center;
+    }
+
+    .h2-donation {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .donation-dog {
+        width: 90%;
+        height: auto;
+    }
+
+    .footer {
+        width: 100%;
+        height: auto;
+    }
+    
+    .footer-container {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin: auto;
+    }
+
+    h3 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) and (min-width: 321px) {
+    .pets-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .pets {
+        width: 100%;
+    }
+
+    .arrows-buttons-left-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+
+    .right-arrow-btn {
+        display: none;
+    }
+
+    .right-arrow-btn-320 {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 320px) {
