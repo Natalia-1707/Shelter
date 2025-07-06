@@ -11,10 +11,10 @@
 <body>
     <header class="header">
         <div class="logo-nav-block">
-            <div class="logo-block">
+            <a href="" style="text-decoration: none"><div class="logo-block">
                 <div class="logo-name">Cozy House</div>
                 <div class="logo-caption">Shelter for pets in Boston</div>
-            </div>
+            </div></a>
             <nav class="navigation">
                 <div class="burger-menu" id="burger">
                     <div class="burger"></div>
@@ -23,9 +23,9 @@
                 </div>
                 <ul class="navigation-list">
                     <li class="nav-option-about">About the shelter</li>
-                    <li class="nav-option">Our pets</li>
-                    <li class="nav-option">Help the shelter</li>
-                    <li class="nav-option">Contacts</li>
+                    <li class="nav-option"><a href="index-pets.html" style="text-decoration: none;color:rgba(205, 205, 205, 1)">Our pets</a></li>
+                    <li class="nav-option"><a href="#helptheshelter" style="text-decoration: none;color:rgba(205, 205, 205, 1)">Help the shelter</a></li>
+                    <li class="nav-option"><a href="#contacts" style="text-decoration: none;color:rgba(205, 205, 205, 1)">Contacts</a></li>
                 </ul>
             </nav>
         </div>
@@ -33,7 +33,9 @@
             <div class="not-only-text">
                 <h1 class="h1">Not only people need a house</h1>
                 <div class="h1-caption">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</div>
-                <button class="make-friend-btn">Make a friend</button>
+                <form action="#ourfriends">
+                    <button class="make-friend-btn">Make a friend</button>
+                </form>
             </div>
             <div class="header-img">
                 <img src="images/start-screen-puppy.png" alt="cute puppy">
@@ -53,7 +55,7 @@
                 </div>
             </div>
         </section>
-        <section class="our-friends">
+        <section class="our-friends" id="ourfriends">
             <div class="our-friends-container">
                 <h2 class="h2-our-friends">Our friends who <br> are looking for a house</h2>
                 <div class="pets-container">
@@ -80,10 +82,12 @@
                     </div>
                     <button class="right-arrow-btn"><span class="right"></span></button>
                 </div>
-                <button class="get-rest-btn">Get to know the rest</button>
+                <form class="button_our_friends" action="index-pets.html">
+                    <button class="get-rest-btn">Get to know the rest</button>
+                </form>
             </div>
         </section>
-        <section class="help-shelter">
+        <section class="help-shelter" id = "helptheshelter">
             <div class="help-shelter-container">
                 <h2 class="h2-help-shelter">How you can help our shelter</h2>
                 <div class="options">
@@ -141,7 +145,7 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="contacts">
         <div class="footer-container">
             <div class="contacts">
                 <h3>For questions and suggestions</h3>
