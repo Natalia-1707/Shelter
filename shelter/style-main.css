@@ -299,6 +299,7 @@ body {
     gap: 90px;
     scroll-behavior: smooth;
     overflow-x: scroll;
+    overflow: hidden;
 }
 
 .pet {
