@@ -289,11 +289,6 @@ body {
     gap: 53px;
 }
 
-.pets-wrapper {
-    overflow: hidden;
-    width: 990px; 
-}
-
 .pets {
     width: 990px;
     height: 435px;
