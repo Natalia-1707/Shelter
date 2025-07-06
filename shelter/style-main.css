@@ -688,6 +688,7 @@ h3 {
 
     .logo-nav-block {
         width: 95%;
+        height: auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -849,10 +850,11 @@ h3 {
     }
 
     .footer-container {
-        width: 100%;
+        width: 90%;
         height: auto;
         flex-wrap: wrap;
         padding-left: 0;
+        margin: auto;
         gap: clamp(3.75rem, 10vw, 10rem);
     }
 }

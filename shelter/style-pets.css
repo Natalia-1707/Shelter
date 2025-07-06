@@ -420,6 +420,71 @@ h3 {
 
 /*-----------MEDIA--------- */
 
+@media screen and (min-width:769px) and (max-width:1279px) {
+    html {
+        width: 100%;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        position: relative;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .logo-nav-block {
+        width: 95%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .pets {
+        width: 100%;
+        height: auto;
+        padding-bottom: clamp(4.375rem, 3vw, 6.25rem);
+    }
+
+    .pets-container {
+        width: 90%;
+        height: auto;
+        justify-content: center;
+        margin: auto;
+        gap: clamp(0.75rem, 3vw, 3.3125rem);
+    }
+
+    .pets {
+        gap: clamp(2.5rem, 5vw, 5.625rem);
+    }
+
+    .footer {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-container {
+        width: 90%;
+        height: auto;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin: auto;
+        gap: clamp(3.75rem, 10vw, 10rem);
+    }
+}
+
 @media screen and (max-width: 768px) {
     html {
         max-width: 768px;
@@ -520,13 +585,14 @@ h3 {
     }
 
     .logo-nav-block {
-        width: 90%;
+        width: 95%;
+        margin: 1.875rem auto;
     }
 
     .burger-menu {
         display: block;
         position: absolute;
-        right: 0;
+        right: 1rem;
         justify-content: center;
         align-items: center;
     }
@@ -542,6 +608,51 @@ h3 {
         justify-content: center;
         align-items: center;
         margin-top: 0;
+    }
+
+
+    .h2-pets {
+        width: 100%;
+    }
+
+    .pets  {
+        width: 100%;
+        height: auto;
+        padding-bottom: clamp(2.625rem, 3vw, 4.3715rem);
+    }
+
+    .pets-container {
+        width: 90%;
+        height: auto;
+        justify-content: center;
+    }
+
+    .h2-pets {
+        justify-content: center;
+        font-size: clamp(25px, 5vw, 35px);
+    }
+
+    .pagination-btns {
+        width: 95%;
+        gap: clamp(0.1rem, 5vw, 1.25rem);
+        justify-content: center;
+    }
+
+    .footer {
+        width: 100%;
+        height: auto;
+    }
+    
+    .footer-container {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin: auto;
+    }
+
+    h3 {
+        text-align: center;
     }
 }
 
