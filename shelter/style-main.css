@@ -289,6 +289,11 @@ body {
     gap: 53px;
 }
 
+.pets-wrapper {
+    overflow: hidden;
+    width: 990px; 
+}
+
 .pets {
     width: 990px;
     height: 435px;
@@ -297,6 +302,8 @@ body {
     display: flex;
     justify-content: center;
     gap: 90px;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
 }
 
 .pet {
@@ -776,12 +783,13 @@ h3 {
     }
 
     .pets-container {
-        width: 80%;
+        width: 100%;
         gap: clamp(0.75rem, 3vw, 3.3125rem);
     }
 
     .pets {
-        gap: clamp(2.5rem, 5vw, 5.625rem);
+        width: auto;
+        gap: 42px;
     }
 
     #Woody {
