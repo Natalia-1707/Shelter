@@ -92,10 +92,11 @@ function renderPets() {
         const petCard = document.createElement('div');
         petCard.classList.add('pet');
         petCard.innerHTML = `
-            <img class="img_pet" src="images/pets-${pet.name.toLowerCase()}.png" width="${cardWidth}" height="${cardWidth}">
+            <img class="img-pet" src="images/pets-${pet.name.toLowerCase()}.png" width="${cardWidth}" height="${cardWidth}">
             <div class="pet-name">${pet.name}</div>
             <button class="learn-more-btn">Learn more</button>
         `;
+        petCard.addEventListener('click', () => openModal(pet));
         catalog.appendChild(petCard);
     });
 }
@@ -142,4 +143,37 @@ backBtn.addEventListener("click", () => {
         history.unshift(prevSlide);
     }
     renderPets();
+});
+
+
+//modal window//
+
+function openModal(pet) {
+    document.querySelector('.img-modal').src=`images/pets-${pet.name.toLowerCase()}.png`;
+    document.querySelector('.modal-pet-name').textContent = pet.name;
+    document.querySelector('.modal-pet-type').textContent = `${pet.type} - ${pet.breed}`;
+    document.querySelector('.modal-pet-description').textContent = pet.description;
+    document.querySelector('.modal-pet-age').textContent = pet.age;
+    document.querySelector('.modal-pet-inoculations').textContent = pet.inoculations;
+    document.querySelector('.modal-pet-diseases').textContent = pet.diseases;
+    document.querySelector('.modal-pet-parasites').textContent = pet.parasites;
+
+    document.getElementById('my-modal').classList.add('open');
+    document.body.style.overflowY = "hidden";
+}
+
+document.getElementById('modal-btn').addEventListener('click', () => {
+    document.getElementById('my-modal').classList.remove('open');
+    document.body.style.overflowY = "";
+});
+
+document.querySelector("#my-modal .modal-info").addEventListener("click", event =>{
+    event._isClickWithInModal = true;
+})
+
+document.getElementById('my-modal').addEventListener('click', (event) => {
+    if (event.target === event.currentTarget) {
+        event.currentTarget.classList.remove('open');
+        document.body.style.overflowY = "";
+    }
 });
