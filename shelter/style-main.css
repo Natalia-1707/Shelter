@@ -796,7 +796,7 @@ h3 {
     margin: 0;
     padding-top: 20px;
     font-family: Georgia, Times, serif;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 16.5px;
     letter-spacing: 1.1px;
@@ -1016,6 +1016,44 @@ li::marker {
         margin: auto;
         gap: clamp(3.75rem, 10vw, 10rem);
     }
+    
+    .modal-box {
+        top: 50%;
+        left: 47%;
+    }
+
+    .modal-btn {
+        right: -35px;
+    }
+
+
+    .modal-info {
+        width: 100%;
+        height: auto;
+    }
+
+    .modal-text {
+        width: auto;
+        height: auto;
+        padding-left: 0,625rem;;
+        padding-bottom: 2,3125rem;
+        padding-top: 0,625rem;
+    }
+
+    .img-modal {
+        width: clamp(21.875rem, 10vw, 31.25rem);
+        height: clamp(21.875rem, 10vw, 31.25rem);
+    }
+
+    .modal-pet-description {
+        width: auto;
+        height: auto;
+        font-size: clamp(0,8125rem, 10vw, 0,9375rem);
+    }
+    .modal-list {
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1173,6 +1211,49 @@ li::marker {
     .footer-dog {
         width: 300px;
         height: 310px;
+    }
+
+    .modal-box {
+        width: 682px;
+        height: 402px;
+        top: 50%;
+        left: 47%;
+    }
+
+    .modal-info {
+        width: auto;
+        height: 350px;
+    }
+
+    .modal-text {
+        width: 45%;
+        height: auto;
+        padding-left: 11px;
+        padding-bottom: 37px;
+        padding-top: 15px;
+    }
+
+    .modal-pet-name,
+    .modal-pet-type {
+        width: auto;
+        height: auto;
+    }
+
+    .img-modal {
+        width: 350px;
+        height: 350px;
+    }
+
+    .modal-pet-description {
+        width: auto;
+        height: auto;
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+    .modal-list {
+        width: auto;
+        height: auto;
+        padding-right: 0;
     }
 }
 
@@ -1497,6 +1578,50 @@ li::marker {
 
     h3 {
         text-align: center;
+    }
+
+    .modal-box {
+        width: 100%;
+        height: auto;
+        top: 50%;
+        left: 47%;
+    }
+
+    .modal-info {
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+
+    .modal-btn {
+        top: -50px;
+        right: -5px;
+    }
+
+    .modal-text {
+        width: auto;
+        height: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .img-modal {
+        display: none;
+    }
+
+    .modal-pet-type {
+        justify-self: center;
+        text-align: center;
+    }
+
+    .modal-pet-description {
+        width: 100%;
+        height: auto;
+        font-size: clamp(0,8125rem, 10vw, 0,9375rem);
+    }
+    .modal-list {
+        width: 90%;
+        height: auto;
     }
 }
 
@@ -1932,5 +2057,49 @@ li::marker {
     .footer-dog {
         width: 260px;
         height: 269px;
+    }
+
+    .modal-box {
+        width: 100%;
+        height: auto;
+        top: 50%;
+        left: 47%;
+    }
+
+    .modal-info {
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+
+    .modal-btn {
+        top: -50px;
+        right: -5px;
+    }
+
+    .modal-text {
+        width: auto;
+        height: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .img-modal {
+        display: none;
+    }
+
+    .modal-pet-type {
+        justify-self: center;
+        text-align: center;
+    }
+
+    .modal-pet-description {
+        width: 100%;
+        height: auto;
+        font-size: clamp(0,8125rem, 10vw, 0,9375rem);
+    }
+    .modal-list {
+        width: 90%;
+        height: auto;
     }
 }
