@@ -1619,6 +1619,7 @@ li::marker {
         height: auto;
         font-size: clamp(0,8125rem, 10vw, 0,9375rem);
     }
+
     .modal-list {
         width: 90%;
         height: auto;
@@ -2098,6 +2099,7 @@ li::marker {
         height: auto;
         font-size: clamp(0,8125rem, 10vw, 0,9375rem);
     }
+    
     .modal-list {
         width: 90%;
         height: auto;
