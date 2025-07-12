@@ -1016,6 +1016,16 @@ li::marker {
         margin: auto;
         gap: clamp(3.75rem, 10vw, 10rem);
     }
+
+    .modal-window {
+        z-index: 2;
+    }
+    
+    .modal-window.open {
+        visibility: visible;
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
     
     .modal-box {
         top: 50%;
@@ -1211,6 +1221,16 @@ li::marker {
     .footer-dog {
         width: 300px;
         height: 310px;
+    }
+
+    .modal-window {
+        z-index: 2;
+    }
+    
+    .modal-window.open {
+        visibility: visible;
+        opacity: 1;
+        transform: translate(-50%, -50%);
     }
 
     .modal-box {
@@ -1578,6 +1598,16 @@ li::marker {
 
     h3 {
         text-align: center;
+    }
+
+    .modal-window {
+        z-index: 2;
+    }
+    
+    .modal-window.open {
+        visibility: visible;
+        opacity: 1;
+        transform: translate(-50%, -50%);
     }
 
     .modal-box {
@@ -2060,6 +2090,16 @@ li::marker {
         height: 269px;
     }
 
+    .modal-window {
+        z-index: 2;
+    }
+    
+    .modal-window.open {
+        visibility: visible;
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+
     .modal-box {
         width: 100%;
         height: auto;
@@ -2099,7 +2139,7 @@ li::marker {
         height: auto;
         font-size: clamp(0,8125rem, 10vw, 0,9375rem);
     }
-    
+
     .modal-list {
         width: 90%;
         height: auto;
