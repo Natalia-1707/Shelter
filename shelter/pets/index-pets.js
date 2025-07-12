@@ -94,7 +94,7 @@ function displayPage(page) {
         const petCard = document.createElement('div');
         petCard.classList.add('pet');
         petCard.innerHTML = `
-        <img class="img_pet" src="images/pets-${pet.name.toLowerCase()}.png" alt="${pet.name}" width="270" height="270">
+        <img class="img_pet" src="../images/pets-${pet.name.toLowerCase()}.png" alt="${pet.name}" width="270" height="270">
         <div class="pet-name">${pet.name}</div>
         <button class="learn-more-btn">Learn more</button>
         `;
@@ -164,7 +164,7 @@ buttonFourth.addEventListener("click", () => {
 //modal window//
 
 function openModal(pet) {
-    document.querySelector('.img-modal').src=`images/pets-${pet.name.toLowerCase()}.png`;
+    document.querySelector('.img-modal').src=`../images/pets-${pet.name.toLowerCase()}.png`;
     document.querySelector('.modal-pet-name').textContent = pet.name;
     document.querySelector('.modal-pet-type').textContent = `${pet.type} - ${pet.breed}`;
     document.querySelector('.modal-pet-description').textContent = pet.description;
