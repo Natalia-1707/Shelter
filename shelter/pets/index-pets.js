@@ -116,7 +116,7 @@ window.addEventListener("resize", function() {
 buttonFirst.addEventListener("click", () => {
     buttonNumber = 1
     displayPage(currentPage)
-    document.getElementById("buttonNumber").innerHTML = buttonNumber
+    document.getElementById("buttonNumber").innerHTML = `<span class="num">${buttonNumber}</span>`;
     buttonFirst.disabled = true
     buttonSecond.disabled = true
     buttonThird.disabled = false
@@ -126,7 +126,7 @@ buttonFirst.addEventListener("click", () => {
 buttonSecond.addEventListener("click", () => {
     buttonNumber --
     displayPage(currentPage)
-    document.getElementById("buttonNumber").innerHTML = buttonNumber
+    document.getElementById("buttonNumber").innerHTML = `<span class="num">${buttonNumber}</span>`;
     if (buttonNumber === 1){
         buttonSecond.disabled = true
         buttonFirst.disabled = true
@@ -140,7 +140,7 @@ buttonSecond.addEventListener("click", () => {
 buttonThird.addEventListener("click", () => {
     buttonNumber ++
     displayPage(currentPage)
-    document.getElementById("buttonNumber").innerHTML = buttonNumber
+    document.getElementById("buttonNumber").innerHTML = `<span class="num">${buttonNumber}</span>`;
     if (buttonNumber > 1){
         buttonSecond.disabled = false
         buttonFirst.disabled = false
@@ -154,7 +154,7 @@ buttonThird.addEventListener("click", () => {
 buttonFourth.addEventListener("click", () => {
     buttonNumber = 48/cardsPerPage
     displayPage(currentPage)
-    document.getElementById("buttonNumber").innerHTML = buttonNumber
+    document.getElementById("buttonNumber").innerHTML = `<span class="num">${buttonNumber}</span>`;
     buttonFirst.disabled = false
     buttonSecond.disabled = false
     buttonThird.disabled = true
