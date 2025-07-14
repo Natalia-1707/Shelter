@@ -711,7 +711,6 @@ h3 {
     left: 50%;
     right: auto;
     bottom: auto;
-    margin-right: '-50%';
     transform: translate(-50%, -50%);
 }
 
@@ -1104,10 +1103,6 @@ li::marker {
     .make-friend-btn {
         margin-left: 126px;
     }
-    
-    .make-friend-btn:hover {
-        background-color: rgba(253, 220, 196, 1);
-    }
 
     .header-img {
         width: 569px;
@@ -1404,7 +1399,7 @@ li::marker {
 
     .header-img {
         width: clamp(230px, 50%, 569px);
-        height: 70%;
+        height: auto;
         position: absolute;
         bottom: 0;
         right: 15%;
